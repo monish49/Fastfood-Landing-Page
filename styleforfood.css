@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Palette+Mosaic&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/bg.png);
+  background-position: center;
+  background-size: cover;
+  padding-right: 5%;
+  padding-left: 3%;
+  box-sizing: border-box;
+  position: relative;
+}
+.title_and_navbar {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.logo {
+  font-size: 50px;
+  color: #eda134;
+  font-family: "Palette Mosaic", cursive;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+nav {
+  flex: 1;
+  padding-left: 606px;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.content {
+  position: relative;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: "Lobster", cursive;
+  color: #1b1b1b;
+  margin-top: 100px;
+}
+
+h1 .style {
+  font-size: 80px;
+  font-weight: 800;
+  font-family: "Lobster", cursive;
+  color: #eda134;
+}
+
+.button_and_fontaw {
+  /* height: 10vh;
+  width: 100%; */
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.btn {
+  background-color: #eda134;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  border-radius: 30px;
+  padding: 15px 45px;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  margin-top: 80px;
+  box-shadow: 3px 8px 20px rgb(78, 75, 75);
+  cursor: pointer;
+}
+
+.social-media {
+  font-family: "Poppins", sans-serif;
+  margin-top: 80px;
+  margin-left: 50px;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+.icons {
+  color: #eda134;
+  padding: 12px 12px 10px 12px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: 10px;
+  height: 27px;
+  width: 27px;
+  text-align: center;
+  box-shadow: 3px 8px 22px rgba(22, 21, 21, 0.15);
+}
+.icons:hover {
+  transform: scale(1.1);
+  color: #fff;
+  background-color: #eda134;
+  transition: all 0.5s;
+}
+
+.image {
+  position: absolute;
+  width: 250px;
+  height: 41%;
+  bottom: 0;
+  margin-left: 740px;
+  margin-bottom: 40px;
+}
